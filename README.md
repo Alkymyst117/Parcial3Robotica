@@ -2,7 +2,7 @@
 Punto de planeador de trayectorias para robot SCARA a partir de un archivo .dxf y vista en simulación con rviz y xacro.
 
 ## Para ejecutar el codigo
-- Copiar el repositorio en wsl en la carpeta ros2_ws (abrir terminal en windows, haacer "cd ros2_ws/src") con el comando "git clone ..."
+- Copiar el repositorio en wsl en la carpeta ros2_ws (abrir terminal en windows, hacer "cd ros2_ws/src") con el comando "git clone ..."
 - Compilar el paquete, haciendo "colcon build --packages-select dxf_parser" dentro de la carpeta ros2_ws (hacer "cd ros2_ws" primero)
 - Actualizar el bash con "source install/setup.bash"
 - Abrir terminator con "terminator"
